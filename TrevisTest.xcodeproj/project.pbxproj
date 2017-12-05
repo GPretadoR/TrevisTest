@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B680151FD6E4C3003BE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B680141FD6E4C3003BE648 /* AppDelegate.swift */; };
+		80B680171FD6E4C3003BE648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B680161FD6E4C3003BE648 /* ViewController.swift */; };
+		80B6801A1FD6E4C3003BE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B680181FD6E4C3003BE648 /* Main.storyboard */; };
+		80B6801C1FD6E4C3003BE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B6801B1FD6E4C3003BE648 /* Assets.xcassets */; };
+		80B6801F1FD6E4C3003BE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B6801D1FD6E4C3003BE648 /* LaunchScreen.storyboard */; };
+		80B6802A1FD6E4C3003BE648 /* TrevisTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B680291FD6E4C3003BE648 /* TrevisTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B680261FD6E4C3003BE648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B680091FD6E4C3003BE648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B680101FD6E4C3003BE648;
+			remoteInfo = TrevisTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80B680111FD6E4C3003BE648 /* TrevisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrevisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B680141FD6E4C3003BE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B680161FD6E4C3003BE648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B680191FD6E4C3003BE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B6801B1FD6E4C3003BE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B6801E1FD6E4C3003BE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B680201FD6E4C3003BE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B680251FD6E4C3003BE648 /* TrevisTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrevisTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B680291FD6E4C3003BE648 /* TrevisTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrevisTestTests.swift; sourceTree = "<group>"; };
+		80B6802B1FD6E4C3003BE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B6800E1FD6E4C3003BE648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B680221FD6E4C3003BE648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B680081FD6E4C3003BE648 = {
+			isa = PBXGroup;
+			children = (
+				80B680131FD6E4C3003BE648 /* TrevisTest */,
+				80B680281FD6E4C3003BE648 /* TrevisTestTests */,
+				80B680121FD6E4C3003BE648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B680121FD6E4C3003BE648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B680111FD6E4C3003BE648 /* TrevisTest.app */,
+				80B680251FD6E4C3003BE648 /* TrevisTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B680131FD6E4C3003BE648 /* TrevisTest */ = {
+			isa = PBXGroup;
+			children = (
+				80B680141FD6E4C3003BE648 /* AppDelegate.swift */,
+				80B680161FD6E4C3003BE648 /* ViewController.swift */,
+				80B680181FD6E4C3003BE648 /* Main.storyboard */,
+				80B6801B1FD6E4C3003BE648 /* Assets.xcassets */,
+				80B6801D1FD6E4C3003BE648 /* LaunchScreen.storyboard */,
+				80B680201FD6E4C3003BE648 /* Info.plist */,
+			);
+			path = TrevisTest;
+			sourceTree = "<group>";
+		};
+		80B680281FD6E4C3003BE648 /* TrevisTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B680291FD6E4C3003BE648 /* TrevisTestTests.swift */,
+				80B6802B1FD6E4C3003BE648 /* Info.plist */,
+			);
+			path = TrevisTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B680101FD6E4C3003BE648 /* TrevisTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B6802E1FD6E4C3003BE648 /* Build configuration list for PBXNativeTarget "TrevisTest" */;
+			buildPhases = (
+				80B6800D1FD6E4C3003BE648 /* Sources */,
+				80B6800E1FD6E4C3003BE648 /* Frameworks */,
+				80B6800F1FD6E4C3003BE648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrevisTest;
+			productName = TrevisTest;
+			productReference = 80B680111FD6E4C3003BE648 /* TrevisTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B680241FD6E4C3003BE648 /* TrevisTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B680311FD6E4C3003BE648 /* Build configuration list for PBXNativeTarget "TrevisTestTests" */;
+			buildPhases = (
+				80B680211FD6E4C3003BE648 /* Sources */,
+				80B680221FD6E4C3003BE648 /* Frameworks */,
+				80B680231FD6E4C3003BE648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B680271FD6E4C3003BE648 /* PBXTargetDependency */,
+			);
+			name = TrevisTestTests;
+			productName = TrevisTestTests;
+			productReference = 80B680251FD6E4C3003BE648 /* TrevisTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B680091FD6E4C3003BE648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Garnik Ghazaryan";
+				TargetAttributes = {
+					80B680101FD6E4C3003BE648 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					80B680241FD6E4C3003BE648 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B680101FD6E4C3003BE648;
+					};
+				};
+			};
+			buildConfigurationList = 80B6800C1FD6E4C3003BE648 /* Build configuration list for PBXProject "TrevisTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B680081FD6E4C3003BE648;
+			productRefGroup = 80B680121FD6E4C3003BE648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B680101FD6E4C3003BE648 /* TrevisTest */,
+				80B680241FD6E4C3003BE648 /* TrevisTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B6800F1FD6E4C3003BE648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B6801F1FD6E4C3003BE648 /* LaunchScreen.storyboard in Resources */,
+				80B6801C1FD6E4C3003BE648 /* Assets.xcassets in Resources */,
+				80B6801A1FD6E4C3003BE648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B680231FD6E4C3003BE648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B6800D1FD6E4C3003BE648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B680171FD6E4C3003BE648 /* ViewController.swift in Sources */,
+				80B680151FD6E4C3003BE648 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B680211FD6E4C3003BE648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B6802A1FD6E4C3003BE648 /* TrevisTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B680271FD6E4C3003BE648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B680101FD6E4C3003BE648 /* TrevisTest */;
+			targetProxy = 80B680261FD6E4C3003BE648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B680181FD6E4C3003BE648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B680191FD6E4C3003BE648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B6801D1FD6E4C3003BE648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B6801E1FD6E4C3003BE648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B6802C1FD6E4C3003BE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B6802D1FD6E4C3003BE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B6802F1FD6E4C3003BE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrevisTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TT.TrevisTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80B680301FD6E4C3003BE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrevisTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TT.TrevisTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80B680321FD6E4C3003BE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrevisTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TT.TrevisTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrevisTest.app/TrevisTest";
+			};
+			name = Debug;
+		};
+		80B680331FD6E4C3003BE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrevisTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TT.TrevisTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrevisTest.app/TrevisTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B6800C1FD6E4C3003BE648 /* Build configuration list for PBXProject "TrevisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B6802C1FD6E4C3003BE648 /* Debug */,
+				80B6802D1FD6E4C3003BE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B6802E1FD6E4C3003BE648 /* Build configuration list for PBXNativeTarget "TrevisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B6802F1FD6E4C3003BE648 /* Debug */,
+				80B680301FD6E4C3003BE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80B680311FD6E4C3003BE648 /* Build configuration list for PBXNativeTarget "TrevisTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B680321FD6E4C3003BE648 /* Debug */,
+				80B680331FD6E4C3003BE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B680091FD6E4C3003BE648 /* Project object */;
+}
