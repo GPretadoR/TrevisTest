@@ -1,3 +1,5 @@
 language: objective-c
 xcode_project: TrevisTest.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TrevisTest
+script:
+    - xcodebuild clean build -sdk iphonesimulator -project TrevisTest.xcodeproj -scheme TrevisTest CODE_SIGNING_REQUIRED=NO
