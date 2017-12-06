@@ -1,6 +1,3 @@
 language: objective-c
 xcode_project: TrevisTest.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TrevisTest
-script : 
-  - xcodebuild  -project TrevisTest.xcodeproj -scheme TrevisTest -destination 'platform=iOS Simulator,id=7BCC156D-A53C-470E-BF19-EE0CBE368C5E'
-  - xcodebuild clean test  -project TrevisTest.xcodeproj -scheme TrevisTest  -destination 'platform=iOS Simulator,id=7BCC156D-A53C-470E-BF19-EE0CBE368C5E'
