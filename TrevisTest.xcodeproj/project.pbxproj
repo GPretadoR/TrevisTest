@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					80B680101FD6E4C3003BE648 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RM23R7K98;
 						ProvisioningStyle = Automatic;
 					};
 					80B680241FD6E4C3003BE648 = {
@@ -342,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4RM23R7K98;
 				INFOPLIST_FILE = TrevisTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -359,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4RM23R7K98;
 				INFOPLIST_FILE = TrevisTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
