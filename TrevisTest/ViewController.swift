@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("There are some changes")
-        print("changes to check autobuild")
+        print("new changes to check autobuild")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
