@@ -27,6 +27,24 @@ class TrevisTestTests: XCTestCase {
         XCTAssertEqual("Text", "Text")
     }
     
+    func testExample0() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual("Text", "Text")
+    }
+    
+    func testExample1() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual("Text", "Text")
+    }
+    
+    func testExample2() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual("Text", "Text")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
